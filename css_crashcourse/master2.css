@@ -1,0 +1,30 @@
+/*body{
+    background: gray
+}*/
+
+/* body{
+    background: url(https://st4.depositphotos.com/3584689/21111/i/1600/depositphotos_211119074-stock-photo-astronaut-turquoise-planet-glowing-blue.jpg);
+    background-repeat: no-repeat;
+} */
+
+/* div{
+    background: blue;
+    border: orange;
+    border-width: medium;
+    border-style: dotted;
+} */
+
+
+div{
+    background: blue;
+    border: red 10px dashed;
+}
+
+p{
+    color: yellow;
+}
+
+span{
+    background: red;
+    color: black;
+}
