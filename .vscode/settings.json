@@ -1,0 +1,14 @@
+{
+    "sqltools.connections": [
+        {
+            "askForPassword": true,
+            "connectionTimeout": 15,
+            "database": "Travis",
+            "dialect": "PostgreSQL",
+            "name": "travis_local",
+            "port": 5432,
+            "server": "localhost",
+            "username": "Travis"
+        }
+    ]
+}
