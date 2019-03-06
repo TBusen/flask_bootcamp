@@ -11,6 +11,11 @@ def index():
 def info():
     return "<h1> Here is some information</h1>"
 
+# dynamic routes
+@app.route('/user/<name>')
+def somename(name):
+    return f"<h1> This is a page for: {name}"
+
 
 if __name__ == "__main__":
     app.run()
