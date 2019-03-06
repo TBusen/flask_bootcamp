@@ -5,7 +5,9 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return render_template('basic.html')
+    myname = 'Travis'
+    mylist = [1,2,3,4]
+    return render_template('basic.html', myname=myname, mylist=mylist)
 
 
 @app.route('/information')

@@ -8,5 +8,13 @@
 </head>
 <body>
     <h1>Welcome to my page</h1>
+    <h2>My name is {{myname}}</h2>
+
+    <ul>
+        {% for element in collection %}
+              <li>{{ element }}</li>  
+        {% endfor %}
+        
+    </ul>
 </body>
 </html>
