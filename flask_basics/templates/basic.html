@@ -11,10 +11,15 @@
     <h2>My name is {{myname}}</h2>
 
     <ul>
-        {% for element in collection %}
+        {% for element in mylist %}
               <li>{{ element }}</li>  
         {% endfor %}
-        
     </ul>
+
+    {% if 2 in mylist %}
+            <p> I see you number 2!</p>
+    {% else %}
+            <p>Where is number 2?</p>
+    {% endif %}
 </body>
 </html>
