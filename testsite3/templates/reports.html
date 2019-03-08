@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="jumbotron jumbotron-fluid">
+    <div class="container">
+        <h1 class="display-3">Let's see how you did!</h1>
+        {% if failed|count < 1 %}
+        <p class="lead">Congratulations!!! You passed all three criteria.  Your username is secure!</p>
+        {% else %}
+        <ul>
+            {% for f in failed %}
+            <li>{{f}}</li>
+            {% endfor %}
+        </ul>
+{% endif %}
+    </div>
+</div>
+
+{% endblock %}
+
+
+
