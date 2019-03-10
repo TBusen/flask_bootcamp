@@ -21,8 +21,10 @@ class InfoForms(FlaskForm):
     feedback = TextAreaField("Please provide any feedback:")
     submit = SubmitField("Submit")
 
+# get/post methods allows passing form to html template
 
-@app.route('/', methods=['GET','POST'])
+
+@app.route('/', methods=['GET','POST']) 
 def index():
 
     form = InfoForms()
